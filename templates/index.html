@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Meme Generator</title>
+</head>
+<body>
+  <h1>Meme Generator</h1>
+  <form action="/generate" method="post" enctype="multipart/form-data">
+    <label>Slika: <input type="file" name="image" accept="image/*" required></label><br>
+    <label>Zgornji tekst: <input type="text" name="top_text"></label><br>
+    <label>Spodnji tekst: <input type="text" name="bottom_text"></label><br>
+    <button type="submit">Generiraj meme</button>
+  </form>
+</body>
+</html>
